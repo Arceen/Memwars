@@ -39,7 +39,7 @@ Other priorities include:
 
 ## Features
 
- - 0.1.0 - Home, Reusable Games List Added (Info for Word War), initial ![DB Schema](https://i.imgur.com/XGQboaD.png) Created (✔)️
+ - 0.1.0 - Home, Reusable Games List Added (Info for Word War), Initial DB Schema Created (✔)️![DB Schema](https://i.imgur.com/XGQboaD.png) 
  - 0.1.1 - Add Other Games Info, Update Game Selector Navigator,  
 
 ## Usage
