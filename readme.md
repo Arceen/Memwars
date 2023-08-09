@@ -23,7 +23,7 @@ It's also going to have some stats that you can see and measure how good you're 
 ### The App seems very basic. Why build it?
 
 The great thing about this app is that it does not bring anything new to the table. So I do not have to worry about great ideas. Sure they might pop up but it's not going to alter the simple core functionality of this app.
-For this application, I am using an Waterfall SDLC model and following proper Design Patterns, Clean Code as much as I can.
+For this application, I am using Waterfall model as the SDLC for this project and focusing on Design Patterns, Clean Code and Good Architecture as much as I can.
 Because I mean instead of having a great deal of cool arbitrary functions somehow taped together tg. The main focus of this project is better design patterns, clean code, 
 
 Although, I'd like for it to be a great and usable app with fun and challenging games that is also going to improve memory. It is more about improving my personal development process.
