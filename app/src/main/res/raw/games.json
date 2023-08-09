@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Word War",
+    "title": "Word War",
+    "description": "In this game you will have to memorize a list of words the best of your ability. \n\nWhen you start the game, a list of words will be shown. You will have to memorize that list. After memorizing, you can press the Test Memory to begin the recall.\n\nIn the recall section, you will have to re-create the original list by typing the correct words. Every time you enter the correct word in the correct place, it will be locked. If you enter all the correct words, your 'Proceed' button will be unlocked and you can check your score.\nYou scores will also have timers attached to them. It is not used to measure your score in this game, but will give you some additional info on what your natural memorization and recall time is\n\nYou will also get some leeway. Meaning, even if you miss a few words, you will still be able proceed. Your will notice the 'Proceed' button being made available.\nThere is no time limit here. The only difficulty parameter that exists, is the number of words.\nRemember to memorize the list in order.\n\nThis exercise is very basic with very loose restrictions. But it is a very important practice in leveling up your fundamental memorization methods, especially if you're a beginner.\nIt can be used to train your memory palace, different loci methods of memorizing, you can also use peg systems or the body method, if you are just starting"
+  },
+  {
+    "id": 2,
+    "name": "Word War Extreme",
+    "title": "Word War Extreme",
+    "description": "Description for Word War Extreme..."
+  },
+  {
+    "id": 3,
+    "name": "Number War",
+    "title": "Number War",
+    "description": "In this game you will have to memorize a list of words..."
+  },
+  {
+    "id": 4,
+    "name": "Number War Extreme",
+    "title": "Number War Extreme",
+    "description": "In this game you will have to memorize a list of words..."
+  },
+  {
+    "id": 5,
+    "name": "Name War",
+    "title": "Name War",
+    "description": "In this game you will have to memorize a list of words..."
+  },
+  {
+    "id": 6,
+    "name": "Name War Extreme",
+    "title": "Name War Extreme",
+    "description": "Description for Word War Extreme..."
+  },
+  {
+    "id": 7,
+    "name": "Location War",
+    "title": "Location War",
+    "description": "In this game you will have to memorize a list of words..."
+  },
+  {
+    "id": 8,
+    "name": "Location War Extreme",
+    "title": "Location War Extreme",
+    "description": "In this game you will have to memorize a list of words..."
+  }
+]

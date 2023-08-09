@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_of_games">
+        <item>Word War</item>
+        <item>Word War Extreme</item>
+        <item>Number War</item>
+        <item>Number War Extreme</item>
+        <item>Name War</item>
+        <item>Name War Extreme</item>
+        <item>Location War</item>
+        <item>Location War Extreme</item>
+    </string-array>
+</resources>
