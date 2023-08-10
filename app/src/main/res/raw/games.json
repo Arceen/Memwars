@@ -9,42 +9,42 @@
     "id": 2,
     "name": "Word War Extreme",
     "title": "Word War Extreme",
-    "description": "Description for Word War Extreme..."
+    "description": "This is the Extreme Version of Word War, where you will not only have to get all the list answers correct to proceed but also you will be fighting against time. \n\nHere you will need effective memory systems and experienced mind palace or loci methods. You will also have to retrace the steps for the recall. \n\n If that is not hard enough you will also have to type fast \n\n Good Luck. You will need it"
   },
   {
     "id": 3,
     "name": "Number War",
     "title": "Number War",
-    "description": "In this game you will have to memorize a list of words..."
+    "description": "In this game you will have to memorize a sequence of numbers. \n\nWhen you start the game, you will get a number of length adjusted to your difficulty. You have to memorize it and when you're ready you will input that number in the next screen.\n\nIf you enter all the correct numbers, your 'Proceed' button will be unlocked and you can check your timings.\nIn this game time is used to measure your score (both your memorization time and recall time)\n\nYou will also get some leeway. Meaning, even if you enter some digits incorrectly, you will still be able proceed. Your will notice the 'Proceed' button being made available.\nThere is no time limit here. The only difficulty parameter that exists, is the number of digits.\n\nThis exercise is very simple with very minimal restrictions. But it is a very important practice in leveling up your chunking skills and number associations.\nIt can be used to train your short term memory, different simple or advanced memorization training ground, if you are a beginner"
+
   },
   {
     "id": 4,
     "name": "Number War Extreme",
     "title": "Number War Extreme",
-    "description": "In this game you will have to memorize a list of words..."
+    "description": "In the Extreme version of the Number War game you will be fighting against the time. You cannot make a single mistake or you will not be able to proceed. It requires the number to be sequenced and putting your thoughts before typing the number on the recall screen.\n\nGood Luck."
   },
   {
     "id": 5,
     "name": "Name War",
     "title": "Name War",
-    "description": "In this game you will have to memorize a list of words..."
-  },
+    "description": "Here, you will have to memorize names of people (both first and last name). \n\nWhen you start the game, a list of names will appear. You will memorize the names. After memorizing, you can press the Test Memory to begin the recall.\n\nIn the recall section, you will have to enter every single person's name in no particular order. Every time you enter the correct name in the correct place, it will be locked. If you enter all the correct names or enough names to pass, your 'Proceed' button will be unlocked and you can check your score.\nYou scores will also have timers attached to them. It is not used to measure your score in this game, but will give you some additional info on what your natural memorization and recall time is\n\nYou will also get some leeway. Meaning, even if you miss a few names, you will still be able proceed. Your will notice the 'Proceed' button being made available.\nThere is no time limit here. The only difficulty parameter that exists, is the number of names.\n\nThis exercise is very basic with very loose restrictions. But it is a very important practice in leveling up your fundamental memorization methods, especially if you're a beginner.\nIt can be used to train your memory palace, different loci methods of memorizing, you can also use peg systems, if you are just starting" },
   {
     "id": 6,
     "name": "Name War Extreme",
     "title": "Name War Extreme",
-    "description": "Description for Word War Extreme..."
+    "description": "The Extreme Edition features a time limit, absolute correctness of all the names and the names will be of across the entire world (Across cultures and regions) for the added challenge. \n\nCoupled with the time taken to input those names and no tolerance for even a single mistake, you will feel the heat.\n\nGood Luck"
   },
   {
     "id": 7,
     "name": "Location War",
     "title": "Location War",
-    "description": "In this game you will have to memorize a list of words..."
+    "description": "A list of countries, you will have to remember.\nSome big, some small.\nTo pass, you have to guess them all\nEvery journey begins with a single step\nSo good luck, take it easy and farewell."
   },
   {
     "id": 8,
     "name": "Location War Extreme",
     "title": "Location War Extreme",
-    "description": "In this game you will have to memorize a list of words..."
+    "description": "Every country\nEvery city\nEvery village\nNothing is off limits\nZero mistakes allowed\nVery Low Time Given\n\nGood Luck. You will need it."
   }
 ]
