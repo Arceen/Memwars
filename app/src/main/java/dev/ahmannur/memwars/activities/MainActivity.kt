@@ -1,51 +1,48 @@
 package dev.ahmannur.memwars.activities
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageView
+import android.util.Log
+import android.view.View
+import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.TextView
-import androidx.appcompat.app.ActionBarDrawerToggle
+
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.navigation.NavigationView
-import dev.ahmannur.memwars.fragments.GameSelectionFragment
-import dev.ahmannur.memwars.fragments.IntroductionFragment
 import dev.ahmannur.memwars.R
-import dev.ahmannur.memwars.data.GameInfoProvider
+import dev.ahmannur.memwars.utils.UserAuth
 
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        GameInfoProvider.loadGames(this)
-        val toolbar: Toolbar = findViewById<Toolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
 
-        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
-        val navView: NavigationView = findViewById(R.id.nav_view)
+        val logoTextView = findViewById<TextView>(R.id.logoTextView)
+        val fadeInSlideUpAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in_slide_up)
+        logoTextView.startAnimation(fadeInSlideUpAnimation)
+        logoTextView.visibility = View.VISIBLE
+        val loginButton = findViewById<Button>(R.id.LoginButton1)
+        val registerButton = findViewById<Button>(R.id.RegisterButton1)
+        loginButton.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
 
-        val toggle = ActionBarDrawerToggle(
-            this, drawerLayout, toolbar,
-            R.string.navigation_drawer_open, R.string.navigation_drawer_close
-        )
-        drawerLayout.addDrawerListener(toggle)
-        toggle.syncState()
+        }
+        registerButton.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
 
-        val headerView = navView.getHeaderView(0)
-        val nameTextView = headerView.findViewById<TextView>(R.id.nameTextView)
-        val avatarImageView = headerView.findViewById<ImageView>(R.id.avatarImageView)
+        }
 
-        nameTextView.text = "Niloy" // Replace with your name
-        avatarImageView.setImageResource(R.drawable.ic_launcher_foreground)
 
-        val fragmentManager = supportFragmentManager
-        val transaction = fragmentManager.beginTransaction()
 
-        transaction.add(R.id.introduction_fragment_container, IntroductionFragment())
-        transaction.add(R.id.game_selection_fragment_container, GameSelectionFragment())
-        transaction.commit()
+        if (UserAuth.isUserLoggedIn() == null) {
+            // User Not Signed In, Goto SignUpPage
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
+
 
 }

@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/gradient_background"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+
 <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/splashLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
+    <!-- Add the gradient background -->
+    <ImageView
+        android:id="@+id/gradientImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient_background"
+         />
 
     <!-- Add your logo or image here -->
     <TextView
@@ -40,8 +43,9 @@
         android:gravity="center"
         android:textColor="#fff"
         android:textStyle="bold"
+        android:letterSpacing=".2"
         android:elevation="8dp"
-        android:alpha="0.8"
+        android:alpha="1"
         android:background="@drawable/button_border"
         android:fontFamily="@font/poiret_one_regular"
         />
@@ -57,17 +61,15 @@
         android:layout_height="48dp"
         android:layout_below="@+id/LoginButton1"
         android:layout_marginTop="32dp"
-        android:layout_marginBottom="64dp"
         android:text="Register"
 
         android:textColor="#fff"
         android:textStyle="bold"
+        android:letterSpacing=".2"
 
         android:elevation="16dp"
-        android:alpha="0.8"
+        android:alpha="1"
 
         android:fontFamily="@font/poiret_one_regular"
         />
-
 </RelativeLayout>
-</ScrollView>
