@@ -35,8 +35,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        if (UserAuth.isUserLoggedIn() == null) {
-            // User Not Signed In, Goto SignUpPage
+        if (UserAuth.isUserLoggedIn()) {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()

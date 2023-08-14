@@ -47,10 +47,12 @@
         />
 
     <Button
+        android:id="@+id/RegisterButton1"
+
         android:background="@drawable/button_border"
 
         android:textSize="24sp"
-        android:id="@+id/RegisterButton1"
+
         android:gravity="center"
         android:layout_centerHorizontal="true"
         android:layout_width="240dp"

@@ -42,8 +42,8 @@ Other priorities include:
  - 0.1.0 - Home, Reusable Games List Added (Info for Word War), Initial DB Schema Created (✔)️![DB Schema](https://i.imgur.com/XGQboaD.png) 
  - 0.1.1 - Add Other Games Info, Update Game Selector Navigator (Conditional Routing) (✔)
  - 0.1.2 - Integrate Firebase, Setup Auth, Font & Color Schema, Finish LandingPage with buttons (✔)
- - 0.1.3 - Finish and Implement Login, SignUp & Establish User (Singleton Pattern)
-
+ - 0.1.3 - Finish and Implement Login, SignUp pages, functions, utility & Establish User (Singleton Pattern) (✔)
+ - 0.1.4 - Home Redesign & Implement
 ## Usage
 
 1. Clone the project using `git clone https://github.com/Arceen/Memwars.git` 

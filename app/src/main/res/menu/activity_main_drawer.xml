@@ -6,4 +6,10 @@
             android:title="Settings" />
         <!-- Add more items as needed -->
     </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_2"
+            android:title="Logout" />
+        <!-- Add more items as needed -->
+    </group>
 </menu>
