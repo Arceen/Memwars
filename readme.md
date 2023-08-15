@@ -43,7 +43,8 @@ Other priorities include:
  - 0.1.1 - Add Other Games Info, Update Game Selector Navigator (Conditional Routing) (✔)
  - 0.1.2 - Integrate Firebase, Setup Auth, Font & Color Schema, Finish LandingPage with buttons (✔)
  - 0.1.3 - Finish and Implement Login, SignUp pages, functions, utility & Establish User (Singleton Pattern) (✔)
- - 0.1.4 - Home Redesign & Implement
+ - 0.1.4 - Home Redesign & Implement (✔)
+ - 0.1.5 - Settings Logic Creation and Implementation
 ## Usage
 
 1. Clone the project using `git clone https://github.com/Arceen/Memwars.git` 

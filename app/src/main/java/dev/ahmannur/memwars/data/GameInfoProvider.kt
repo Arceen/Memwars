@@ -45,4 +45,7 @@ object GameInfoProvider {
     fun getGameNames(): List<String> {
         return games.map { it.name }
     }
+    fun getGameDescriptions(): List<String> {
+        return games.map { it.description }
+    }
 }

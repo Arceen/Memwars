@@ -7,7 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@drawable/gradient_background"
     tools:openDrawer="start">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -21,7 +25,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary" />
+                android:background="#ff7722aa" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"> <!-- Add padding for spacing -->
+            android:padding="8dp">
 
             <FrameLayout
                 android:id="@+id/introduction_fragment_container"
@@ -37,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"> <!-- Add margin to separate from the next fragment -->
+                android:layout_marginBottom="16dp">
 
             </FrameLayout>
 
@@ -54,7 +58,7 @@
 
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
+    </ScrollView>
     <!-- Add the NavigationView here -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

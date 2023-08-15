@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="360dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/card_background"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    >
+
+    <TextView
+        android:id="@+id/gameNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Title Text"
+        android:background="@drawable/card_title"
+
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="24sp"
+        android:textColor="#dfff"
+        android:textStyle="bold"
+        android:fontFamily="@font/josefinslab_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/gameDescriptionTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="Subtitle Text that might be very long and exceed the width and do something else"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:fontFamily="@font/poiret_one_regular"
+        app:layout_constraintTop_toBottomOf="@id/gameNameTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        android:layout_marginTop="40dp"
+        android:ellipsize="end"
+        android:maxLines="8"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

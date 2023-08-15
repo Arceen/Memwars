@@ -31,9 +31,9 @@ class HomeActivity : AppCompatActivity() {
         navView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.nav_item_2 -> {
-                    // Handle the settings menu item click (Logout)
+
                     UserAuth.logoutUser()
-                    // You can also navigate to the login screen or perform other actions after logout if needed
+
                     drawerLayout.closeDrawer(GravityCompat.START)
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)

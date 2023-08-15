@@ -1,0 +1,29 @@
+<!-- res/drawable/game_item_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient Background -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="45"
+                android:startColor="#ff7722aa"
+                android:endColor="#ffaa33cc"
+                />
+            <corners
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                />
+        </shape>
+    </item>
+
+    <!-- Bottom Stroke -->
+    <item android:top="99dp"> <!-- Adjust the top value to control the stroke position -->
+        <shape>
+            <stroke
+                android:color="#ef551178"
+                android:width="4dp"
+                />
+        </shape>
+    </item>
+</layer-list>

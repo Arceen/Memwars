@@ -31,10 +31,14 @@ class GameSelectionFragment : Fragment(), GameAdapter.OnItemClickListener {
         super.onViewCreated(view, savedInstanceState)
 
         val recyclerView: RecyclerView = view.findViewById(R.id.recycler_view)
+
+        // Clear previous adapter data if present
+        recyclerView.adapter = null
+
         val gameNames = GameInfoProvider.getGameNames().toTypedArray()
-        val adapter = GameAdapter(gameNames, this)
+        val gameDescriptions = GameInfoProvider.getGameDescriptions().toTypedArray()
+        val adapter = GameAdapter(gameNames, gameDescriptions, this)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
-
     }
 }
